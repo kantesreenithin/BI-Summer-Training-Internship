@@ -1,0 +1,20 @@
+#loading_heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20%;
+}
+.gallerywrap img{
+    cursor: pointer;
+}
+.gallerywrap img:hover{
+    transform: scale(1.03);
+
+}
+#btnClose:hover{
+    opacity: 1;
+}
+#btnClose{
+    top:40px;
+    right:40px;
+}
