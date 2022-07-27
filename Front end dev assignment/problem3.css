@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Shirts-txt{
+    color: rgb(117, 111, 111);
+    font-size: 18px;
+    display: block;
+}
+.page-heading{
+    text-align: center;
+    font-size:25px;
+}
+.product-container{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.product-image img{
+   max-width: 400px;
+   max-height: 480px;
+   border:1px solid	#DCDCDC;
+   
+}
+.product-image{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+.product-details{
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 20%;
+}
+.table-data th{
+    text-align: left;
+}
+.size-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    break-before: always;
+    padding-left: 30px;
+}
+.addtocart-btn button{
+    margin-left: 15px;
+    padding: 10px 15px;
+    border: gainsboro;
+    border-radius: 6px;
+    color:black
+}
+.buynow-btn button{
+    background-color: #306EFF;
+    color: white;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 6px;
+}
+.real-price{
+    font-weight:700;
+}
+.strikethrough-rate{
+    font-size:12px;
+    color:black;
+    font-weight: 500;
+}
+.color-rate{
+    color:rgb(77, 162, 77);
+    font-weight:bold;
+}

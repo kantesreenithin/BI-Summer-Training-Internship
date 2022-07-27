@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="problem3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Product Page</title>
+  </head>
+  <body>
+    <h4 class="page-heading">Product Page</h4>
+    <div class="product-container">
+      <div class="product-image">
+        <img src="images/Tshirt.png" />
+      </div>
+      <div class="product-details">
+        <h4>Green Cotton Tshirt</h4>
+        <span class="Shirts-txt">Shirts</span>
+        <br>
+        <span>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i><br><br>
+        </span>
+        <div class="price">
+          <span class="real-price">Rs. 400</span> <span class="strikethrough-rate" ><s>Rs.800</s></span> <span class="color-rate">50% Off</span>
+        </div>
+        <div class="product-description">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas sed dolore modi? Optio soluta distinctio iusto ab eos eligendi sequi, culpa temporibus exercitationem veritatis iste non voluptatibus quidem. Sunt eum corrupti at necessitatibus ducimus esse.
+          </p>
+        </div>
+        <div class="product-design">
+          <div>
+            <table class="table-data">
+              <tr>
+                <th>Color</th>
+                <td class="color"><span style="margin-left: 30px;">Green</span></td>
+              </tr>
+              <tr>
+                <th>Availability</th>
+                <td ><span style="margin-left: 30px;">3 in stock</span></td>
+              </tr>
+              <tr>
+                <th>Select size:</th>
+                <td>
+                  <!-- this of choices -->
+                  <div class="size-boxes">
+                    <input
+                    type="radio"
+                    id="Small"
+                    name="size"
+                    value="Small"
+                  />
+                  <label for="Small">Small</label><br /> 
+                  <input
+                    type="radio"
+                    id="Medium"
+                    name="size"
+                    value="Medium"
+                  />
+                   <label for="Medium">Medium</label><br />
+                  <input
+                    type="radio"
+                    id="Large"
+                    name="size"
+                    value="Large"
+                  />
+                  <label for="Large">Large</label><br />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>Quantity:</th>
+                <td>
+                  <select style="margin-left: 30px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+            <br>
+              <span class="buynow-btn"><button type="button" class="btn-buynow">Buy Now</button></span>
+              <span class="addtocart-btn"><button type="button" class="btn-buynow">Add to Cart</button></span>
+            </tr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
